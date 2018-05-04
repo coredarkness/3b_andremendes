@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="196.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.AlunoController">
+   <children>
+      <JFXTextField fx:id="txtNome" layoutX="27.0" layoutY="54.0" prefHeight="25.0" prefWidth="276.0" />
+      <Label layoutX="27.0" layoutY="37.0" text="Nome:" />
+      <Button layoutX="198.0" layoutY="164.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
+      <Button layoutX="258.0" layoutY="164.0" mnemonicParsing="false" onAction="#fechar" text="Fechar" />
+   </children>
+</AnchorPane>
